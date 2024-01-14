@@ -6,17 +6,18 @@
     --botao-azul: #167bf7;
     --cor-de-fundo: #00030C;
     --botao-azul-efeito: #3c92fa;
-    --botao-secundario-efeito: #363636;    
+    --botao-secundario-efeito: #363636;
     --font-principal: 'Inter', sans-serif;
 
     --font-secundaria: 'inter bold'
 }
 
 /* reset de css */
-*{
+* {
     padding: 0;
     margin: 0;
 }
+
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
@@ -24,6 +25,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
 }
+
 .principal {
     background-image: url(img/Background.png);
     background-repeat: no-repeat;
@@ -31,19 +33,23 @@ body {
     align-items: center;
     text-align: center;
 }
+
 .container {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
+
 .container__caixa {
     margin: 0 6em;
 }
+
 .container__titulo {
     font-size: 1.75rem;
     font-weight: 700;
     line-height: normal;
 }
+
 .container__botao {
     background-color: var(--botao-azul);
     color: var(--branco-principal);
@@ -53,17 +59,21 @@ body {
     text-decoration: none;
     margin-bottom: 1em;
 }
+
 .botao_secundario {
     background-color: transparent;
     border: 1px solid var(--branco-principal);
 }
+
 .botao_secundario:hover {
     background-color: var(--botao-secundario-efeito);
 }
+
 .container__aviso {
     font-size: 0.75rem;
     color: var(--cinza-secundario);
 }
+
 .container__imagem {
     margin: 1em 0 2em 0;
 
@@ -72,23 +82,28 @@ body {
 .secundario__imagem {
     width: 80%;
 }
+
 .secundario {
     align-items: center;
     margin: 0 10em;
 }
+
 .descricao__titulo {
     font-weight: 700;
     font-size: 3rem;
     color: var(--branco-principal);
     margin-bottom: 0.5rem;
 }
+
 .descricao__texto {
     color: var(--cinza-secundario);
 }
+
 .secundario__botao {
     margin-top: 1rem;
     display: inline-block;
 }
+
 .container__descricao {
     padding: 2em;
 }
@@ -126,7 +141,7 @@ body {
     margin-top: 1em;
 }
 
-.lista__link a{
+.lista__link a {
     text-decoration: none;
     color: var(--branco-principal);
     margin-left: 1em;
